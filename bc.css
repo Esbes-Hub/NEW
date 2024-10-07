@@ -324,3 +324,25 @@ nav input{
   font-size: 45px;
   font-weight: 600;
 }
+.background-images{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.background-images img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  animation: drop 5s  linear infinite;
+}
+@keyframes drop{
+  0%{
+    top: -100px;
+    left: calc(100% * var(--random-x));
+  }
+  100%{
+    top: 100vh;
+    left: cal(100% * var(--random-x));
+  }
+}
