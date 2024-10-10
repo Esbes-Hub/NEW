@@ -75,7 +75,7 @@ nav .wrapper {
      margin-left: 10px;
      padding: 5px 10px;
      background: -webkit-linear-gradient(#FFA500, #e6bd05, #FFA500);
-     -webkit-background-clip: text;
+      -webkit-background-clip : text;
      -webkit-text-fill-color: transparent;
      line-height: 1;
      font-weight: bolder;
@@ -87,6 +87,7 @@ nav .wrapper {
      transition: #FFA500 0.3s ease;
     cursor: pointer;
 }
+
 navbar-text:hover,
 .navbar-text:active{
     color: #FFA500;
@@ -368,8 +369,6 @@ nav input {
   font-weight: 600;
 }
 .container-swiper{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
    display: flex;
