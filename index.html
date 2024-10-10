@@ -9,6 +9,10 @@
 <link rel="shortcut icon" href="/favicon.ico">
     <title>Best-Coach</title>
     <link rel="stylesheet" href="style.css">
+     <!-- Linking Google fonts for icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Linking SwiperJS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
@@ -77,10 +81,66 @@
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
   </nav>
+<!--card-slider-->
+<div class="container swiper">
+    <div class="card-wrapper">
+      <!-- Card slides container -->
+      <ul class="card-list swiper-wrapper">
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <img src="images/designer.jpg" alt="Card Image" class="card-image">
+            <p class="badge badge-designer">Designer</p>
+            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <img src="images/developer.jpg" alt="Card Image" class="card-image">
+            <p class="badge badge-developer">Developer</p>
+            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <img src="images/marketer.jpg" alt="Card Image" class="card-image">
+            <p class="badge badge-marketer">Marketer</p>
+            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <img src="images/gamer.jpg" alt="Card Image" class="card-image">
+            <p class="badge badge-gamer">Gamer</p>
+            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <img src="images/editor.jpg" alt="Card Image" class="card-image">
+            <p class="badge badge-editor">Editor</p>
+            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+      </ul>
 
-  <div class="body-text">
-    <div class="title">Responsive Dropdown and Mega Menu</div>
-    <div class="sub-title">using only HTML & CSS</div>
+       <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Navigation Buttons -->
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+    </div>
   </div>
+
+  <!-- Linking SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
 </body>
 </html>
